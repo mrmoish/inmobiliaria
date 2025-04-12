@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6ec;
+    color: #111;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    margin: 1rem 0 2rem;
+  }
+  
+  .house-img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: #c5b28c;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .contact-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  .contact-btn img {
+    width: 32px;
+    height: 32px;
+  }
+  
