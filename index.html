@@ -1,30 +1,133 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Propiedad en Buenos Aires</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CABA Imobiliaria</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <div class="container">
-    <h1>VENDE O ALQUILA TU<br>PROPIEDAD EN<br>BUENOS AIRES</h1>
-    <p class="subtitle">¿Quieres vender o alquilar<br>tu propiedad?</p>
-    
-    <img src="casa.jpg" alt="Casa" class="house-img" />
 
-    <button class="cta-button">ENVIAR SOLICITUD</button>
-
-    <div class="contact-buttons">
-      <a href="https://t.me/rita_bykovskaya" class="contact-btn telegram" target="_blank">
-        <img src="telegram-icon.png" alt="Telegram" />
-        Telegram
-      </a>
-      <a href="https://wa.me/5491171061028?text=Hola,%20que tal? Quiero vender/alquilar una propiedad." class="contact-btn whatsapp" target="_blank">
-        <img src="whatsapp-icon.png" alt="WhatsApp" />
-        WhatsApp
-      </a>
+  <header>
+    <div class="container header-container">
+      <a href="/" class="logo">Buenos Aires</a>
+      <button class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-menu">
+        <!-- <div class="language-selector">
+          <span>RU</span> <i class="fas fa-chevron-down"></i>
+        </div> -->
+        <div class="social-icons">
+          <img src="i5.png" height="38px" alt="">
+          <!-- <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a> -->
+          <!-- <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a> -->
+        </div>
+      </div>
     </div>
-  </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Equipo profesional de agentes inmobiliarios en Buenos Aires</h1>
+      <p>
+        Confía en nosotros la venta de tu propiedad. Nuestro equipo profesional se encargará de todo con eficiencia, transparencia y el más alto nivel de compromiso.</p>
+      <div class="button-container">
+        <a href="#contacts" class="btn">Contáctanos</a>
+        <!-- <a href="#prices" class="btn">Цены</a> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="specialists">
+    <div class="container">
+      <!-- <h2>Наши специалисты</h2> -->
+      <p>Somos un equipo selecto de profesionales con una sólida trayectoria en el mercado inmobiliario de Buenos Aires. Cada uno de nosotros aporta años de experiencia y un enfoque estratégico para lograr operaciones exitosas y discretas.</p>
+      <div class="specialist-description">
+        <p>Nuestra oficina, ubicada en el corazón de Palermo, está siempre disponible para recibirte en un entorno cómodo y reservado, donde cada detalle de tu propiedad será tratado con la atención que merece.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <div class="container">
+      <h2>¿Querés hablar con nosotros?</h2>
+      <div class="contact-list">
+        <div class="contact-item">
+          <div class="contact-icon whatsapp-icon">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <div class="contact-info">
+            <a href="https://wa.me/5491171061028" target="_blank">WhatsApp</a>
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <div class="contact-icon facebook-icon">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="contact-info">
+            <a href="https://www.facebook.com/profile.php?id=61572612502193">Facebook</a>
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <div class="contact-icon telegram-icon">
+            <i class="fab fa-telegram-plane"></i>
+          </div>
+          <div class="contact-info">
+            <a href="https://t.me/rita_bykovskaya" target="_blank">Telegram</a>
+          </div>
+        </div>
+        
+        <div class="contact-item">
+          <div class="contact-icon phone-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="contact-info">
+            <a href="tel:+5491171061028">+54 9 11 7106-1028</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <!-- <div class="footer-contact">
+        <h4>KONTAKTAI</h4>
+        <p>Įveskite savo el. paštą</p>
+        <form class="subscribe-form">
+          <input type="email" class="form-input" placeholder="Jūsų el. pašto adresas">
+          <button type="submit" class="submit-btn">Siųsti užklausą</button>
+        </form>
+      </div> -->
+
+      <div class="footer-info">
+        <h4>Dirección</h4>
+        <p> Palermo, C1**5, Cdad. Autónoma de Buenos Aires</p>
+     
+        <p>info***@mail.com</p>
+      </div>
+      
+    </div>
+    <div class="copyright">
+      <p>© 2025. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5491171061028" target="_blank" class="whatsapp-btn">
+    <i class="fab fa-whatsapp fa-2x"></i>
+  </a>
+
+  <!-- <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-menu').classList.toggle('active');
+    });
+  </script> -->
+
 </body>
 </html>
