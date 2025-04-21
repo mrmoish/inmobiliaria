@@ -29,7 +29,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
+
 
 .logo {
   font-size: 24px;
@@ -82,13 +84,16 @@ header {
   margin: 0 auto;
 }
 
+
+
 .hero h1 {
   font-size: 48px;
   margin-bottom: 20px;
+  font-weight: 400;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 30px;
 }
 
@@ -237,6 +242,10 @@ header {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    /*иконки*/
+    text-decoration: none; /* убирает подчёркивание */
+    color: inherit; /* делает цвет таким же, как у родителя */
   }
   
   .contact-item:hover {
